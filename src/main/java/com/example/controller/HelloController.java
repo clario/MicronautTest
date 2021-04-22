@@ -10,6 +10,6 @@ public class HelloController {
 
     @Get(produces = MediaType.APPLICATION_JSON)
     public Person index() {
-        return new Person("Ole");
+        return new Person("Martin");
     }
 }
